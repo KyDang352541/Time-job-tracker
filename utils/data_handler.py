@@ -2,9 +2,9 @@ import pandas as pd
 import os
 from io import BytesIO
 
-CONFIG_TEAMS_PATH = "config/teams.xlsx"
-CONFIG_JOBS_PATH = "config/jobs.xlsx"
-RECORD_PATH = "data/record.xlsx"
+CONFIG_TEAMS_PATH = "teams.xlsx"
+CONFIG_JOBS_PATH = "jobs.xlsx"
+RECORD_PATH = "record.xlsx"
 
 def load_teams():
     if os.path.exists(CONFIG_TEAMS_PATH):
